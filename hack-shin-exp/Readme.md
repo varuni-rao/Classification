@@ -18,3 +18,4 @@ First, we tested the performance of all classifiers on the dataset and selected 
 - There are 2 versions of this: KNN14, which is using all features and 22features, which uses 22 features and was found to provide optimum solution by my team member using backward feature selection.
 - Then I also used AutoML from flaml library to run some automated model selections to see if we find any model that gives us optimum results better than the regular GridSearch/RandomizedSearch and Optuna used by us for hyperparamter tuning
 
+We achieved an accuracy of 0.9561 and ended up 7th on the leaderboard. The top accuracy was 0.9581. However, the whole process was incredible because in the short period of 10 days, I got to learn how to do classification, and also some new libraries such as Optuna, flaml and H2O which I had not learned earlier. I am still working on the H2O file and once it is ready, I will upload the same to this folder.
